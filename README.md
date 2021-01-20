@@ -11,7 +11,7 @@ https://www.npmjs.com/package/express
 (1)express myapp    // 创建出来的是jade模板
      express -e myapp     // ejs模板-适合前端
 (2)cd myapp && npm install     // 下载依赖
-(3)npm start     // 以package.json创建这个脚本
+(3)npm start    // 以package.json创建这个脚本
 (4)修改及重启node服务
 (5)npm i -g node-dev，在package.json里改成node-dev ./bin/www就可以自动重启服务器了
 ```
